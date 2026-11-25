@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dembevinh — Portfolio</title>
+  <meta name="description" content="Personal portfolio of dembevinh (vinhh78) - Featured projects, skills and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <!-- Background Effects -->
+  <div class="background__effect" aria-hidden="true">
+    <div class="grid_background"></div>
+    <div class="glow_orb glow_orb--1"></div>
+    <div class="glow_orb glow_orb--2"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header-area">
+    <div class="container">
+      <div class="header">
+        <a href="#home" class="h__logo">
+          <i class="fa-solid fa-code"></i>
+          <span class="typing-text" id="typingLogo">dembevinh</span>
+        </a>
+
+        <nav class="header-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#project" class="nav-link">Projects</a>
+          <a href="#certificates" class="nav-link">Certificates</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-controls">
+          <button type="button" class="theme-btn" id="themeToggle" aria-label="Toggle dark/light mode">
+            <i class="fa-solid fa-sun" id="themeIcon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Profile Section -->
+    <section class="profile" id="home">
+      <div class="container">
+        <div class="profile__banner">
+          <div class="banner__code-grid">
+            <span>&lt;dembevinh /&gt;</span>
+            <span>github.com/vinhh78</span>
+          </div>
+        </div>
+
+        <div class="profile__area">
+          <div class="profile__data">
+            <div class="profile__border">
+              <div class="profile__perfil">
+                <img src="https://avatars.githubusercontent.com/u/vinhh78"
+                     onerror="this.src='https://github.com/vinhh78.png'"
+                     alt="dembevinh avatar" />
+              </div>
+              <div class="status_wrapper">
+                <span class="status_indicator"></span>
+                <span class="status_tooltip">Available for work</span>
+              </div>
+            </div>
+
+            <h1 class="profile__name">
+              dembevinh
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="hsl(207, 90%, 61%)" width="22" height="22" aria-label="Verified">
+                <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+              </svg>
+            </h1>
+
+            <p class="profile__handle">@vinhh78</p>
+
+            <ul class="profile__social">
+              <li>
+                <a href="https://www.facebook.com/vinh.875951" class="profile__social_link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ivan_goodly/" class="profile__social_link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/vinhh78" class="profile__social_link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://dembevinh-locket.onrender.com" class="profile__social_link" target="_blank" rel="noopener noreferrer" aria-label="Locket App">
+                  <i class="fa-solid fa-camera-retro"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:vinh858971@gmail.com" class="profile__social_link" aria-label="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Stats -->
+          <div class="profile__info">
+            <div class="profile__info-group">
+              <h3 class="profile__info_number">
+                <i class="fa-solid fa-folder-open"></i>
+                <span id="repoCount">6</span>+
+              </h3>
+              <p class="profile__info-description">Completed<br>Projects</p>
+            </div>
+            <div class="profile__info-group">
+              <h3 class="profile__info_number">
+                <i class="fa-solid fa-code"></i>
+                <span>4</span>+
+              </h3>
+              <p class="profile__info-description">Languages<br>&amp; Tech</p>
+            </div>
+            <div class="profile__info-group">
+              <h3 class="profile__info_number">
+                <i class="fa-solid fa-award"></i>
+                <span>2</span>+
+              </h3>
+              <p class="profile__info-description">Certificates<br>Earned</p>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="profile__buttons">
+            <a href="#project" class="button">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+            <div class="profile__buttons-small">
+              <a href="https://github.com/vinhh78" target="_blank" rel="noopener noreferrer" class="button__small button__gray" aria-label="GitHub Profile" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="#contact" class="button__small button__gray" aria-label="Contact" title="Contact">
+                <i class="fa-solid fa-paper-plane"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__subtitle">My Portfolio</span>
+          <h2 class="section__title">Featured Projects</h2>
+        </div>
+
+        <div class="project__filters" id="projectFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web / HTML</button>
+          <button class="filter-btn" data-filter="python">Python</button>
+          <button class="filter-btn" data-filter="php">PHP / WordPress</button>
+        </div>
+
+        <p class="note">
+          <b>Note:</b>
+          <span>Hover or tap a project card to view details and open links.</span>
+        </p>
+
+        <div class="projects__content" id="projectsGrid">
+          <!-- Rendered by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__subtitle">Achievements &amp; Recognition</span>
+          <h2 class="section__title">My Certificates</h2>
+        </div>
+
+        <div class="certificates__grid">
+          <article class="cert__card">
+            <div class="cert__media" data-cert-img="assets/certs/gsa-ambassador.jpg" data-cert-title="Google Student Ambassador (GSA Vietnam) — Pham Cong Vinh">
+              <img src="assets/certs/gsa-ambassador.jpg" alt="Google Student Ambassador Badge" loading="lazy" />
+              <span class="cert__badge"><i class="fa-brands fa-google"></i> GSA Vietnam</span>
+            </div>
+            <div class="cert__body">
+              <span class="cert__issuer">Google Student Ambassador &bull; Technology &amp; International Recognition</span>
+              <h3 class="cert__title">Google Student Ambassador (GSA)</h3>
+              <p class="cert__desc">
+                Selected as one of the few Google Student Ambassadors representing Vietnam and the sole representative from HUNRE (Hanoi University of Natural Resources and Environment).
+              </p>
+            </div>
+            <div class="cert__footer">
+              <button type="button" class="projects__btn" data-cert-img="assets/certs/gsa-recognition.jpg" data-cert-title="Technology &amp; International Recognition — Pham Cong Vinh">
+                <i class="fa-solid fa-star"></i> Recognition
+              </button>
+              <button type="button" class="projects__btn" data-cert-img="assets/certs/gsa-honor-list.jpg" data-cert-title="Google Student Ambassador Honor Roll">
+                <i class="fa-solid fa-medal"></i> Honor Roll
+              </button>
+              <a href="https://googlestudentambassador.vn/" target="_blank" rel="noopener noreferrer" class="projects__btn projects__btn--primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Verify
+              </a>
+            </div>
+          </article>
+
+          <article class="cert__card">
+            <div class="cert__media" data-cert-img="assets/certs/gemini-academy.jpg" data-cert-title="Google &amp; NIC — Gemini Academy">
+              <img src="assets/certs/gemini-academy.jpg" alt="Google NIC Gemini Academy" loading="lazy" />
+              <span class="cert__badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Gemini Academy</span>
+            </div>
+            <div class="cert__body">
+              <span class="cert__issuer">Google &times; NIC (National Innovation Center)</span>
+              <h3 class="cert__title">Gemini Academy Program</h3>
+              <p class="cert__desc">
+                Completed the Google &amp; NIC Gemini Academy initiative focused on practical AI adoption and innovation.
+              </p>
+            </div>
+            <div class="cert__footer">
+              <button type="button" class="projects__btn projects__btn--primary" data-cert-img="assets/certs/gemini-academy.jpg" data-cert-title="Google &amp; NIC — Gemini Academy">
+                <i class="fa-solid fa-expand"></i> View Badge
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__subtitle">Tech Stack</span>
+          <h2 class="section__title">Skills &amp; Tools</h2>
+        </div>
+
+        <div class="skills__grid">
+          <div class="skills__card">
+            <div class="skills__card-head">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skills__list">
+              <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3 / Tailwind</span>
+              <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> Responsive UI</span>
+            </div>
+          </div>
+
+          <div class="skills__card">
+            <div class="skills__card-head">
+              <i class="fa-solid fa-server"></i>
+              <h3>Backend &amp; Platform</h3>
+            </div>
+            <div class="skills__list">
+              <span class="skill-pill"><i class="fa-brands fa-python"></i> Python / Flask</span>
+              <span class="skill-pill"><i class="fa-brands fa-php"></i> PHP</span>
+              <span class="skill-pill"><i class="fa-brands fa-wordpress"></i> WordPress</span>
+              <span class="skill-pill"><i class="fa-solid fa-cloud"></i> Render / Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__subtitle">Get in touch</span>
+          <h2 class="section__title">Contact Me</h2>
+        </div>
+
+        <div class="contact__grid">
+          <a href="https://www.facebook.com/vinh.875951" target="_blank" rel="noopener noreferrer" class="contact__card">
+            <i class="fa-brands fa-facebook contact__icon"></i>
+            <h3>Facebook</h3>
+            <span>facebook.com/vinh.875951</span>
+            <span class="contact__action">Visit Facebook →</span>
+          </a>
+
+          <a href="https://www.instagram.com/ivan_goodly/" target="_blank" rel="noopener noreferrer" class="contact__card">
+            <i class="fa-brands fa-instagram contact__icon"></i>
+            <h3>Instagram</h3>
+            <span>@ivan_goodly</span>
+            <span class="contact__action">Follow on Instagram →</span>
+          </a>
+
+          <a href="https://github.com/vinhh78" target="_blank" rel="noopener noreferrer" class="contact__card">
+            <i class="fa-brands fa-github contact__icon"></i>
+            <h3>GitHub</h3>
+            <span>github.com/vinhh78</span>
+            <span class="contact__action">View profile →</span>
+          </a>
+
+          <a href="mailto:vinh858971@gmail.com" class="contact__card">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+            <h3>Email</h3>
+            <span>vinh858971@gmail.com</span>
+            <span class="contact__action">Send email →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copy">
+        © 2026 <strong>dembevinh</strong>. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Certificate Lightbox Modal -->
+  <div class="cert-modal" id="certModal" aria-hidden="true">
+    <div class="cert-modal__backdrop" id="certModalBackdrop"></div>
+    <div class="cert-modal__content">
+      <button type="button" class="cert-modal__close" id="certModalClose" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img id="certModalImg" src="" alt="Certificate Preview" />
+      <p id="certModalCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
